@@ -1,0 +1,18 @@
+h1 {
+    color: purple;   
+    background-color: powderblue;
+}
+
+button {
+    color: mediumslateblue;
+    background-color: #ff99ee;
+}
+
+p {
+    color: rgb(89 55 00);
+    background-color: rgb(255 255 255);
+}
+
+body {
+    background-color: #dd44ff;
+}

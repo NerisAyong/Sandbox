@@ -1,0 +1,39 @@
+section {
+    width: 100%;
+    height: 800px;
+    background-image: url("https://th.bing.com/th/id/R.830db7822fe530c6695c8503f999b08b?rik=MwVeLySc2sFfgQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fHD-Peaceful-Background.jpg&ehk=kfSz90PGHjsx5ZP43z%2fHR3jvXl8i8zlthdPxziaAcp4%3d&risl=&pid=ImgRaw&r=0");
+    background-size:cover;
+    background-position: center;
+    margin: auto
+
+}
+h1 {
+    font-size: 80px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: greenyellow;
+}
+button {
+    width: 30%;
+    height: 80px;
+    background-color:black;
+    border: double;
+    color: yellow;
+    text-align: center;
+    text-decoration:wavy;
+    display: block;
+    font-size: 30px;
+    padding: 15px 32px;
+    opacity: 0.5;
+    transform: scale(0.7) translate(200px);
+    border-radius: dotted;
+    
+    
+}
+button:hover {
+    background-color: red;
+
+}

@@ -1,0 +1,36 @@
+*{
+    background-color: white;
+}
+
+body {
+    background-color: #331E36;
+}
+button {
+    font-size: 30px;
+    background-color: #6EA4BF;
+}
+h1,h2{
+    color: grey;
+}
+h3{
+    background-color: #5DA7F0;
+    color: #0D8130;
+}
+
+#username {
+    background-color: #794E6E;
+    color: #FFFFFF;
+}
+
+
+button:hover {
+    color:antiquewhite;
+}
+
+button:active {
+    background-color: #5EEF8A;
+}
+
+h1;:first-letter {
+    font-size: 50px;
+}

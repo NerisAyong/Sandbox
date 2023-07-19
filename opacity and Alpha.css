@@ -1,0 +1,27 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: maroon;
+
+}
+ #rgba{
+    width: 50%;
+    height:50%;
+    background-color:rgba(255,255,255,0.7);
+
+ }
+ #Opacity {
+    width: 50%;
+    height:50%;
+    background-color:yellow;
+    opacity: 0.3;
+
+ }
+ #button {
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    margin: 10px;
+    display: block;
+    border: 2px solid black; 
+ }

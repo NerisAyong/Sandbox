@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+    <link rel="stylesheet" href="Formdemo.CSS"
+</head>
+<body>
+    <h1>Form elements</h1>
+    <form action="Search">
+    <button>please do not submit the form</button>
+     <p>
+        <label for="Username">Enter username:</label>
+        <input id="username" type="text" placeholder="username">
+    </p>
+    <p>
+        <label for password>Enter yout password</label> 
+        <input id="password" type="password" placeholder="Enter your password:">
+    </p>
+    <button>Read through</button>
+    <p>
+        <label for="color"> Enter a colour:</label>
+        <input id="colour"type="color">
+    </p>
+    <p>
+        <label for="number"> Enter your number</label>
+        <input id="number"type="number" min="-1" max="200" step="5" placeholder="Enter a number:">
+    </p>
+    <p>
+        <label for="Date"> Enter your birthdate:</label>
+        <input id="Date"type="Date">
+    </p>
+    <button>Summit</button> 
+    <h2>hijacking searches.</h2>
+    <h3>Search Reddit</h3>
+    </form> 
+    <form action="https://www.reddit.com/search">
+         <input type="text" name="q">
+         <button>Search Reddit</button>
+
+    </form>
+    <h4>Search Google</h4>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <h4>Search Yahoo</h4>
+    <form action="https://search.yahoo.com/search">
+        <input type="text" name="Birthdate">
+        <button>Search Yahoo</button>
+
+    </form>
+    <h6>Search Youtube</h6>
+    <form action="https://youtube.com/results">
+        <input  type="text" name="search_query">
+        <button>Search Youtube</button>
+
+    </form>
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <Input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to terms and conditions</label>
+        <p>
+            <input type="radio" name="size" id="XL" value="xl">
+                <label for="XL">XL:</label>
+            <input type="Radio" name="size" id="X" value="x">
+                <label for="X">X:</label>
+            <input type="radio" name="size" id="L" value="l">
+                <label for="L">L:</label>
+        </p>
+        <p>
+            <label for="animals"> Please select an animal</label>
+                <select name="animal" id="animal">
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="\cow">Cow</option>
+                    <option value="Goat">Goat</option>
+                </select>
+        </p>
+        <p>
+            <label for="butter">select level of butter:</label>
+            <input type="range" id="Butter" min="1" max="100" name="Butter-level" value="75"></inpuit>
+        </p>
+    <p>
+        <label for="question">Any question for us?</label>
+        <br>
+        <textarea id="question" rows="7" cols="30" name="Question?" placeholder="Ask us anything"></textarea>
+    </p>
+        <button>submit</button>
+
+     <h2>Validations Demo</h2>   
+     <form action="/dummy">
+        <label for="first">Enter first name:</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="Family name">Family name</label>
+            <input type="text" id="Family name" minlength="6" maxlength="20" name="Family name" required>
+        </p>
+        <p>
+            <label for="Email"> Enter a valid email</label>
+            <input type="email" required>
+        </p>
+        <p>
+            <label for="Url">Enter a url adsress</label>
+            <input type="Url" required>
+        </p>
+        <button>Submit</button>
+     </form>
+
+
+    </form>
+
+    
+</body>
+</html>
